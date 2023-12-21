@@ -33,8 +33,8 @@ class SensorApp extends StatelessWidget {
       body: Stack(
         children: [
           Positioned(
-            left: 100,
-            top: 100,
+            left: centerX,
+            top: centerY,
             child: Container(
               color: Colors.red,
               width: 100,
