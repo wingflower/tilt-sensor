@@ -36,7 +36,10 @@ class SensorApp extends StatelessWidget {
             left: centerX,
             top: centerY,
             child: Container(
-              color: Colors.red,
+              decoration: BoxDecoration(
+                color: Colors.green,
+                shape: BoxShape.circle,
+              ),
               width: 100,
               height: 100,
             ),
