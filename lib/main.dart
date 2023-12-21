@@ -31,6 +31,7 @@ class SensorApp extends StatelessWidget {
     // 가로모드
     SystemChrome.setPreferredOrientations([
       DeviceOrientation.landscapeLeft,
+      DeviceOrientation.landscapeRight,
     ]);
 
     final centerX = MediaQuery.of(context).size.width / 2 - 50;
